@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -26,6 +27,7 @@ body, html {
 }
 
 .header {
+<<<<<<< HEAD
   background-color: #FFDE22;
   grid-column: span 2;
 }
@@ -43,6 +45,25 @@ body, html {
 .article {
   background-color: #bccbde;
   grid-column: 2 span 2;
+=======
+  background-color: #006157;
+}
+
+.sidebar {
+  background-color: #005B94;
+}
+
+.nav {
+  background-color: #642cde;
+}
+
+.article {
+  background-color: #7E1DC3;
+}
+
+.footer {
+  background-color: #393f4d;
+>>>>>>> upstream/main
 }
 
 .article p {
@@ -50,9 +71,13 @@ body, html {
   font-family: sans-serif;
   color: white;
   text-align: left;
+<<<<<<< HEAD
 }
 
 .footer {
   background-color: #393f4d;
   grid-column: span 2;
 }
+=======
+}
+>>>>>>> upstream/main

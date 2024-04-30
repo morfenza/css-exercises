@@ -52,6 +52,7 @@
 }
 
 .sidebar {
+<<<<<<< HEAD
   background-color: #FF7755;
 
   grid-column: 1;
@@ -67,6 +68,9 @@
   display: grid;
   align-items: center;
   justify-items: center;
+=======
+  background-color: #C50208;
+>>>>>>> upstream/main
 }
 
 .sidebar .photo {
@@ -86,6 +90,7 @@
 }
 
 .nav {
+<<<<<<< HEAD
   background-color: #FF7755;
 
   grid-column: 2;
@@ -97,6 +102,9 @@
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+=======
+  background-color: #C50208;
+>>>>>>> upstream/main
 }
 
 .nav ul li {
@@ -151,5 +159,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
